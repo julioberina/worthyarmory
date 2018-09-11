@@ -1,3 +1,3 @@
 # worthyarmory
 
-Website remake for [Worthy Armory](https://wortharmory.com)
+Website remake for [Worthy Armory](https://worthyarmory.com)
