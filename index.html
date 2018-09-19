@@ -57,6 +57,37 @@
 			</header>
 			<!-- End Header Area -->
 
+			<!-- Modal for Get Started -->
+		  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		    <div class="modal-dialog modal-lg" role="document">
+		      <div class="modal-content">
+		        <div class="modal-header">
+		          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		          <h4 class="modal-title" id="myModalLabel">Contact Options</h4>
+		        </div>
+		        <div class="modal-body">
+		          <div class="row">
+		            <div class="col-md-12 modal_body_content">
+		              <p>Some contents...</p>
+		            </div>
+		          </div>
+		          <div class="row">
+		            <div class="col-md-12 modal_body_map">
+		              <div class="location-map" id="location-map">
+		                <div style="width: 600px; height: 400px;" id="map_canvas"></div>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="row">
+		            <div class="col-md-12 modal_body_end">
+		              <p>Else...</p>
+		            </div>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+
 			<!-- start home Area -->
 			<section class="banner-area relative" id="home">
 				<div class="container">
@@ -68,7 +99,11 @@
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua.
 								</p>
-								<button class="primary-btn2 mt-20 text-uppercase ">Get Started<span class="lnr lnr-arrow-right"></span></button>
+								<button class="primary-btn2 mt-20 text-uppercase"
+								data-toggle="modal" data-target="#myModal"
+								data-lat='10.85' data-lng='106.62'>
+									Get Started<span class="lnr lnr-arrow-right"></span>
+								</button>
 							</div>
 							<div class="col-lg-6 d-flex align-self-end img-right">
 								<img class="img-fluid" src="img/Worthy-Armory3.jpg" alt="">
