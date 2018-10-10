@@ -2130,7 +2130,7 @@ nav a:hover {
 }
 
 .banner-area {
-  background-color: #f9f9ff;
+  background-color: black;
 }
 
 .banner-area .fullscreen {
@@ -2309,16 +2309,19 @@ nav a:hover {
   margin-top: 30px;
 }
 
-.consultans-area {
-  background-color: #f9f9ff;
+.consultans-area, .consultans-area p, .consultans-area h4 {
+  background-color: black;
+  color: white;
 }
 
 .consultans-area .header-text {
   text-align: center;
+  color: white;
 }
 
 .consultans-area .header-text h1 {
   margin-bottom: 25px;
+  color: white;
 }
 
 .single-con .single-con .title {
@@ -2504,6 +2507,11 @@ nav a:hover {
   cursor: pointer;
   opacity: .5;
   transform: scale(1.05);
+}
+
+.feature-area, .feature-area h4, .feature-area p {
+  background-color: black;
+  color: white;
 }
 
 .footer-area {
