@@ -1868,7 +1868,7 @@ body {
   position: relative;
 }
 
-.default-header {
+.top-header {
   padding: 5px 0;
   position: absolute;
   top: 0;
@@ -2118,7 +2118,7 @@ nav a:hover {
   bottom: 0;
 }
 
-.default-header {
+.top-header {
   background-color: black;
   padding: 20px 0;
   width: 100% !important;
